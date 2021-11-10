@@ -1,16 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  color: #61dafb;
 }
 
 .App-header {
@@ -21,18 +11,27 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-header .input-box {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.checkbox p {
+  color: ;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.forms {
+  font-size: 15px;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+  color: #61dafb;
+  
 }
